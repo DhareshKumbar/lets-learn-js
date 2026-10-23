@@ -4,7 +4,7 @@
 
 /* Outpu would be: 709 */
 
-/* This Question is based on concept: Recursion */
+/* Concept: Recursion */
 
 /* A recursive function in JavaScript is a function that calls itself to solve a smaller piece of a problem until it reaches a stopping point */
 
@@ -12,6 +12,11 @@
 1. Base Case: The condition that stops the function from calling itself again. Without this, the function loops infinitely and causes a RangeError: Maximum call stack size exceeded (stack overflow).
 2. Recursive Case: The part where the function calls itself with a modified or smaller input to move closer to the base case.
 */
+
+/*
+Use Case: Recursion is very helpful when working with data structures of unknown depth, such as directory trees, JSON payloads, or DOM elements.
+*/
+
 
 /* array = [x, y, z] to understand better and each index represents an array*/ 
 var arr = [[3, 4, 58], [709, 8, 9, [10, 11]], [111, 2]];
